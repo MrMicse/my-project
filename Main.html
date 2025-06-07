@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Загрузка файлов</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Загрузка файлов</h1>
+    
+    <!-- Форма загрузки -->
+    <form id="uploadForm" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" id="fileInput" multiple>
+        <button type="submit">Загрузить</button>
+    </form>
+    
+    <!-- Область отображения файлов -->
+    <div id="fileList">
+        <!-- Загруженные файлы будут отображаться здесь -->
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
+

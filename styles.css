@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#fileList {
+    margin-top: 20px;
+}
+
+.file-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.file-item a {
+    text-decoration: none;
+    color: #007bff;
+}
